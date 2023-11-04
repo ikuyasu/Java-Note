@@ -8,3 +8,8 @@ if `jar` is in the current directory. If a jar file is in the directory above th
 ```
 java  -classpath ../stdlib.jar AddTwo.java
 ```
+
+- If the `.java` file is in the subdirectory:
+```
+javac  -classpath ./:stdlib.jar ./week4/AddTwo.java && java -classpath ./:stdlib.jar ./week4/AddTwo
+```
