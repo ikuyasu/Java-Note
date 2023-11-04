@@ -13,3 +13,5 @@ java  -classpath ../stdlib.jar AddTwo.java
 ```
 javac  -classpath ./:stdlib.jar ./week4/AddTwo.java && java -classpath ./:stdlib.jar ./week4/AddTwo
 ```
+
+- haven't figured out how `package` command should be configured.
