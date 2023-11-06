@@ -14,4 +14,10 @@ java  -classpath ../stdlib.jar AddTwo.java
 javac  -classpath ./:stdlib.jar ./week4/AddTwo.java && java -classpath ./:stdlib.jar ./week4/AddTwo
 ```
 
+- In week10 with stdlib.jar in that directory,
+```
+javac -classpath ./:stdlib.jar ThreeSum.java
+java -classpath ./:stdlib.jar ThreeSum 8 < 8ints.txt
+```
+
 - haven't figured out how `package` command should be configured.
